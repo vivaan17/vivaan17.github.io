@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+ /* HEADER */
+header {
+    background: #35424a;
+    color: #f4f4f4;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #e74c3c 3px solid;
+}
+
+header a {
+    color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .active a {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #e67e22;
+    font-size: bold;
+}
+
+/* SHOWCASE */
+
+#showcase {
+    height: 400px;
+    background: linear-gradient(#373b44,#4286f4);
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#showcase h2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* NEWSLETTER */
+
+#newsletter {
+    padding: 15px;
+    background-color: #35424a;
+    color: #f4f4f4;
+}
+
+#newsletter h2{
+    float: left;
+    font-size: 25px;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 20px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#newsletter .btn-1 {
+    height: 38px;
+    background-color: #4286f4;
+    border: none;
+    color: #f4f4f4;
+    padding: 0 20px;
+}
+
+/* BOXES */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 100px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #e74c3c;
+    text-align: center;
+}
+
+/* MAIN-COL */
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+
+/* SIDEBAR */
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+
+/* MAIN */
+.dark {
+    background-color: #35424a;
+    color: #f4f4f4;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: solid 1px #ccc;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+.btn-1 {
+    background-color: #4286f4;
+    border: none;
+    color: #f4f4f4;
+    padding: 5px 15px ;
+    margin-top: 5px;
+}
